@@ -1,0 +1,68 @@
+## Ignore all files:
+*
+
+## Ignore all, except:
+
+# Unity must-have directories:
+![aA]ssets
+![aA]ssets/**
+![pP]roject[sS]ettings
+![pP]roject[sS]ettings/**
+![pP]ackages
+![pP]ackages/**
+
+#Ignore TMP folder in project
+[aA]ssets/TMP
+[aA]ssets/TMP.meta
+
+#Ignore Rider plugin
+[aA]ssets/[pP]lugins/[eE]ditor]/JetBrains
+[aA]ssets/[pP]lugins/[eE]ditor]/JetBrains/**
+[aA]ssets/[pP]lugins/[eE]ditor]/JetBrains.meta
+
+# Git settings:
+!.gitignore
+!.gitattributes
+!.gitmodules
+
+# Documents (Docs)
+![dD]ocs
+![dD]ocs/**
+![dD]ocuments
+![dD]ocuments/**
+
+# Sources (Src)
+![sS]ources
+![sS]ources/**
+![sS]ource
+![sS]ource/**
+![sS]rc
+![sS]rc/**
+
+# Readme
+![rR]eadme.*
+!README.*
+
+# Changelog
+![cC]hangelog.*
+!CHANGELOG.*
+
+# Contribute
+![cC]ontribute.*
+![cC]ontributing.*
+!CONTRIBUTING.*
+!CONTRIBUTE.*
+
+## Ignore again:
+
+# Special temporary directory in Assets:
+# zGitIgnore
+[aA]ssets/[Zz][gG]it[iI]gnore
+[aA]ssets/[Zz][gG]it[iI]gnore/**
+
+# Ignore UnityVS tools:
+Assets/**/UnityVS
+
+# Ignore project specific:
+[aA]ssets/[uU]ser*
+[aA]ssets/[uU]ser/**
